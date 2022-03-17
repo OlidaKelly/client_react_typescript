@@ -1,0 +1,55 @@
+.WilderCard{
+  width: 250px;
+  height: 650px;
+  border-radius: 5px;
+  padding: 1.5vh;
+  background: var(--white)
+}
+
+.WilderCard img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.WilderCard h3{
+  font-size: 1.7rem;
+  margin-bottom: 1.5vh;
+}
+
+.description{
+  font-size: 1.1rem;
+  margin-bottom: 1.5vh;
+
+}
+
+.skills-container{
+ display: flex;
+ gap: 2vw;
+}
+
+.skills{
+  width: 80px;
+  height: 25px;
+  border: 2px solid var(--secondary);
+  border-radius: 5px;
+  background: var(--white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.skills-container p {
+  font-size: 0.9rem;
+  
+}
+
+.votes{
+  color: var(--white);
+  height: 90%;
+  font-size: 0.7rem;
+  padding: 1px 6px;
+  border-radius: 50%;
+  background: var(--third);
+}
